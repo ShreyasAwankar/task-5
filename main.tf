@@ -1,6 +1,6 @@
-resource "google_storage_bucket" "practice_bucket_task5" {
-  project       = "practice_bucket_task5"
-  name          = "no-public-access-bucket"
+resource "google_storage_bucket" "practice_bucket" {
+  project       = "terraform-cloud-functions-ems"
+  name          = "task5_practice name"
   location      = "US"
   force_destroy = true
 
